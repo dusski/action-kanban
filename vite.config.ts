@@ -4,8 +4,16 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     lib: {
-      entry: 'src/main.ts',
-      formats: ["es"],
+      entry: 'src/index.ts',
+      formats: ["cjs"],
+      fileName: 'main'
     },
+    rollupOptions: {
+      external: ['obsidian'],
+      output: {
+        dir: 'dist/action-kanban',
+        entryFileNames: 'main.js',
+      }
+    }
   },
 });

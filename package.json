@@ -1,0 +1,38 @@
+{
+  "name": "action-kanban",
+  "version": "1.0.0",
+  "description": "Automate actions in Obsidian Kanban boards when cards change status or columns.",
+  "keywords": [
+    "obsidian",
+    "kanban",
+    "automation",
+    "workflow",
+    "productivity",
+    "task",
+    "management",
+    "status",
+    "tracking",
+    "board",
+    "actions",
+    "card",
+    "triggers",
+    "actionable",
+    "cards",
+    "plugin",
+    "column",
+    "actions",
+    "task",
+    "automation",
+    "card",
+    "movement",
+    "project",
+    "management"
+  ],
+  "license": "MIT",
+  "author": "dusski\\",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

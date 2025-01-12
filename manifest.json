@@ -1,0 +1,9 @@
+{
+  "id": "action-kanban",
+  "name": "Action Kanban",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.3",
+  "description": "Automate actions in Obsidian Kanban boards when cards change status or columns.",
+  "author": "dusski",
+  "isDesktopOnly": true
+}
